@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ServiceBrokerBeginner">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="BRAIN246:BRAINCOURT\ttotter">
+          <Created>2021-06-27T12:03:50.6160217+02:00</Created>
+          <Type>SQL</Type>
+          <Server>BRAIN246</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="BRAIN246:ttotter">
+          <Created>2021-06-26T19:12:52.6391857+02:00</Created>
+          <Type>SQL</Type>
+          <Server>BRAIN246</Server>
+          <UserName>ttotter</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="00_create_database.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BRAIN246:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BRAIN246</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>00_create_database.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02_create_message_types.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BRAIN246:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BRAIN246</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>02_create_message_types.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04_create_contract.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BRAIN246:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BRAIN246</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04_create_contract.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06_create_queues.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BRAIN246:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BRAIN246</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06_create_queues.sql</FullPath>
+        </FileNode>
+        <FileNode Name="08_create_services..sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BRAIN246:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BRAIN246</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>08_create_services..sql</FullPath>
+        </FileNode>
+        <FileNode Name="20_send_first_message.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BRAIN246:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BRAIN246</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>20_send_first_message.sql</FullPath>
+        </FileNode>
+        <FileNode Name="22_receive_and_reply.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BRAIN246:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BRAIN246</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>22_receive_and_reply.sql</FullPath>
+        </FileNode>
+        <FileNode Name="24_receive_reply.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BRAIN246:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BRAIN246</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>24_receive_reply.sql</FullPath>
+        </FileNode>
+        <FileNode Name="50_automate_processing_queue.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BRAIN246:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BRAIN246</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>50_automate_processing_queue.sql</FullPath>
+        </FileNode>
+        <FileNode Name="51_automate_request_queue.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BRAIN246:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BRAIN246</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>51_automate_request_queue.sql</FullPath>
+        </FileNode>
+        <FileNode Name="55_create_sending_wrapper.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BRAIN246:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BRAIN246</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>55_create_sending_wrapper.sql</FullPath>
+        </FileNode>
+        <FileNode Name="57_send_request.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BRAIN246:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BRAIN246</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>57_send_request.sql</FullPath>
+        </FileNode>
+        <FileNode Name="80_create_vw_list_queues.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BRAIN246:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BRAIN246</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>80_create_vw_list_queues.sql</FullPath>
+        </FileNode>
+        <FileNode Name="99_checks_and_troubleshooting.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BRAIN246:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BRAIN246</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>99_checks_and_troubleshooting.sql</FullPath>
+        </FileNode>
+        <FileNode Name="XX_cpu_info.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BRAIN246:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BRAIN246</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>XX_cpu_info.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items>
+        <FileNode Name="Manual.txt">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Manual.txt</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
